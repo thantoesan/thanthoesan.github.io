@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+
+    <form action="Studentapp.php" method="post">
+        <label for="name-in">Name:</label>
+        <input type="text" id="name-in" name="name"><br><br>
+
+        <label for="email-in">Email:</label>
+        <input type="email" id="email-in" name="email"><br><br>
+
+        <label for="phone-in">Phone:</label>
+        <input type="tel" id="phone-in" name="phone"><br><br>
+
+        <label for="password">password</label>
+        <input type="password"  id="password" name="password">
+        <br><br>
+
+        <label for ="date">Date</label>
+        <input type="date" id="date" name="date">
+
+        <br><br>
+
+        <label for="file">Photo</label>
+        <input type="file" accept=".jpg, .png" id="file" name="file"><br><br>
+
+
+
+
+            <label for="year">year</label>
+       <select name="year" id="year">
+             <option value="">Choose year</option>
+                <option value="1st year">1st year</option>
+                <option value="2nd year">2nd year</option>
+                <option value="3rd year">3rd year</option>
+       </select><br><br>
+
+       <label for="" >Gender</label>
+       <input type="radio" name="gender" id="Male" value="Male"><lable for="Male">Male</lable>
+       <input type="radio" name="gender" id="FeMale" value="feMale"><lable for="FeMale">FEMALE</lable>
+      <br><br>
+
+        <label for="">Hobby</label>
+        <input type="checkbox" name="hobby" id="checkbox"><lable for="checkbox">Swimming</lable>
+                 <input type="checkbox" name="hobby" id="checkbox"><lable for="checkbox">Swimming</lable>
+                         <input type="checkbox" name="hobby" id="checkbox"><lable for="checkbox">Swimming</lable>
+                                 <input type="checkbox" name="hobby" id="checkbox"><lable for="checkbox">Swimming</lable><br><br>
+
+                                 <label for="comment">Comment:</label>
+                                 <textarea name="comment" id="comment" clos="20" rows="30"></textarea>
+                   <br><br>
+                 <input type="week">
+                 <input type="time">
+                 <input type="color">
+                 <input type="range" max="100" min="0">
+
+
+
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+
+
+
+
+
+
+    
+
+
+</body>
+</html>
